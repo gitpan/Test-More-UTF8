@@ -11,11 +11,11 @@ Test::More::UTF8 - Enhancing Test::More for UTF8-based projects
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -25,6 +25,9 @@ our $VERSION = '0.01';
 	# now we can easily use flagged strings without warnings like "Wide character in print ..."
 	is("\x{410}","\x{420}"); # got a failure message without warnings
 
+=head1 LIMITATIONS
+
+	This module have reason only for perl 5.8 and higher
 
 =head1 FEATURES
 

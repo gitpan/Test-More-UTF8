@@ -1,3 +1,4 @@
+use 5.007003; # the earlier perl doesn't have utf8 capabilities
 use inc::Module::Install;
 
 name     'Test-More-UTF8';

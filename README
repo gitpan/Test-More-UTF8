@@ -4,7 +4,7 @@ NAME
 	Test::More::UTF8 - Enhancing Test::More for UTF8-based projects
 
 VERSION
-	Version 0.01
+	Version 0.02
 
 SYNOPSIS
 	use Test::More;
@@ -12,6 +12,10 @@ SYNOPSIS
 
 	# now we can easily use flagged strings without warnings like "Wide character in print ..."
 	is("\x{410}","\x{420}"); # got a failure message without warnings
+
+LIMITATIONS
+
+	This module have reason only for perl 5.8 and higher
 
 FEATURES
 	This module also switch on by default utf8 pragma. To disable this, add

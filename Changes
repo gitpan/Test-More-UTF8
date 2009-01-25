@@ -1,5 +1,8 @@
 Revision history for Test-More-UTF8
 
+0.02    2009-01-25
+        Fix requirements on perl 5.8+
+
 0.01    2009-01-19
         First version
 
