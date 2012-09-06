@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 
-use ex::lib '../lib';
 use strict;
 use warnings;
 use Test::More;

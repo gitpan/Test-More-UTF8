@@ -1,10 +1,10 @@
 #!/usr/bin/perl
 
-use ex::lib '../lib';
+use strict;
+use warnings;
 use Test::More tests => 4;
 
 use Test::More::UTF8 qw(failure -utf8);
-use Data::Dumper;
 use IO::Handle;
 
 my $sym = "\x{430}";

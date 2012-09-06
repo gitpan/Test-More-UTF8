@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
-use ex::lib '../lib';
+use strict;
+use warnings;
 use Test::More tests => 4;
 
 use Test::More::UTF8;

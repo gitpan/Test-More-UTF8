@@ -9,13 +9,9 @@ use Carp;
 
 Test::More::UTF8 - Enhancing Test::More for UTF8-based projects
 
-=head1 VERSION
-
-Version 0.02
-
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
